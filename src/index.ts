@@ -1,1 +1,1 @@
-console.log("Typescript file");
+import { User } from "./User";
