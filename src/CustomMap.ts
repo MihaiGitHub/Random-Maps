@@ -1,3 +1,6 @@
+import { User } from "./User";
+import { Company } from "./Company";
+
 export class CustomMap {
   private googleMap: google.maps.Map;
 
@@ -10,4 +13,6 @@ export class CustomMap {
       },
     });
   }
+
+  addMarker(mappable: User | Company): void {}
 }
